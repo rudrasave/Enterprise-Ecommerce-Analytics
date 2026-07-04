@@ -139,31 +139,39 @@ CREATE TABLE IF NOT EXISTS staging.stg_category_translation (
 
 
 /*===========================================================
-PRODUCTION TABLES
-===========================================================*/
-
-
-/*===========================================================
-TABLE : customers
+PRODUCTION TABLE : ORDERS
 
 Purpose:
-Stores unique customer information.
+Stores validated customer orders.
 
-Primary Key:
-customer_id
+Business Rules
+--------------
+• One record per order
+• Every order belongs to one customer
+• customer_id references Customers
 
 ===========================================================*/
 
-CREATE TABLE IF NOT EXISTS production.customers (
+CREATE TABLE IF NOT EXISTS production.orders (
 
-    customer_id VARCHAR(50) PRIMARY KEY,
+    order_id VARCHAR(50) PRIMARY KEY,
 
-    customer_unique_id VARCHAR(50) NOT NULL,
+    customer_id VARCHAR(50) NOT NULL,
 
-    customer_zip_code_prefix INTEGER NOT NULL,
+    order_status VARCHAR(20) NOT NULL,
 
-    customer_city VARCHAR(100) NOT NULL,
+    order_purchase_timestamp TIMESTAMP NOT NULL,
 
-    customer_state CHAR(2) NOT NULL
+    order_approved_at TIMESTAMP,
+
+    order_delivered_carrier_date TIMESTAMP,
+
+    order_delivered_customer_date TIMESTAMP,
+
+    order_estimated_delivery_date TIMESTAMP NOT NULL,
+
+    CONSTRAINT fk_orders_customer
+        FOREIGN KEY (customer_id)
+        REFERENCES production.customers(customer_id)
 
 );
