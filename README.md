@@ -107,3 +107,129 @@ The ETL process extracts raw CSV files, validates and cleans the data, transform
   <img src="screenshots/05_dashboard/Operations_Dashboard.png" width="100%">
 </p>
 
+---
+
+# 📂 Project Structure
+
+```
+Enterprise-Ecommerce-Analytics/
+│
+├── analysis/              # SQL analysis queries
+├── cleaning/              # Data cleaning scripts
+├── dashboards/            # Power BI dashboard (.pbix)
+├── data/
+│   └── raw/               # Raw Olist CSV datasets
+├── database/              # Database creation scripts
+├── diagrams/              # Architecture, Schema & ETL diagrams
+├── documentation/         # Project documentation
+├── etl/                   # ETL loading scripts
+├── optimization/          # Query optimization
+├── screenshots/           # SQL & Dashboard screenshots
+├── views/                 # Analytical SQL views
+│
+├── README.md
+└── LICENSE
+```
+
+---
+
+# 📦 Dataset
+
+**Dataset:** Brazilian Olist E-Commerce Dataset
+
+The dataset contains information about:
+
+- Customers
+- Orders
+- Order Items
+- Products
+- Sellers
+- Payments
+- Reviews
+- Geolocation
+- Category Translation
+
+It contains nearly **100,000 orders** placed across Brazil and is widely used for SQL and Business Intelligence projects.
+
+---
+
+# 🧠 SQL Concepts Used
+
+This project demonstrates a wide range of SQL concepts including:
+
+- SELECT Statements
+- Filtering & Sorting
+- GROUP BY
+- HAVING
+- Aggregate Functions
+- CASE Statements
+- Joins
+- Subqueries
+- Common Table Expressions (CTEs)
+- Window Functions
+- Ranking Functions
+- Views
+- Indexing
+- Constraints
+- Data Cleaning
+- Query Optimization
+
+---
+
+# 📈 Business Questions Solved
+
+This project answers important business questions such as:
+
+- What is the total revenue?
+- Which months generate the highest revenue?
+- Which products contribute the most revenue?
+- Who are the top-performing sellers?
+- Which states generate the highest sales?
+- Which cities have the most customers?
+- What is the average order value?
+- Which payment methods are most popular?
+- How efficient is the delivery process?
+- Which customers spend the most?
+- Which products underperform?
+- How do revenue trends change over time?
+
+---
+
+# 📊 Dashboard Pages
+
+### Executive Dashboard
+
+- Revenue KPIs
+- Monthly Revenue Trend
+- Product Categories
+- Top Sellers
+
+### Customer Analytics
+
+- Revenue by State
+- Revenue by City
+- Top Customers
+- Average Order Value
+
+### Operations Dashboard
+
+- Payment Analysis
+- Delivery Performance
+- Review Distribution
+- Operational KPIs
+
+---
+
+# 📌 Key KPIs
+
+- Total Revenue
+- Total Orders
+- Total Customers
+- Average Review Score
+- Average Delivery Time
+- Revenue by Category
+- Revenue by State
+- Revenue by Seller
+- Payment Distribution
+- Customer Spending
+
