@@ -58,7 +58,7 @@ The project follows an end-to-end analytics workflow similar to what is implemen
 The project follows a complete enterprise analytics workflow from raw data ingestion to business intelligence reporting.
 
 <p align="center">
-  <img src="diagrams/Enterprise_Architecture.png" width="100%">
+  <img src="diagrams/Enterprise Architecture.png" width="100%">
 </p>
 
 ---
