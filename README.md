@@ -50,3 +50,60 @@ The project follows an end-to-end analytics workflow similar to what is implemen
 - Architecture Documentation
 - Database Schema
 - ETL Workflow Documentation
+
+---
+
+# 🏗 Enterprise Architecture
+
+The project follows a complete enterprise analytics workflow from raw data ingestion to business intelligence reporting.
+
+<p align="center">
+  <img src="diagrams/Enterprise_Architecture.png" width="100%">
+</p>
+
+---
+
+# 🗄 Database Schema
+
+The PostgreSQL database is designed using a relational schema with normalized tables connected through primary and foreign keys.
+
+<p align="center">
+  <img src="diagrams/database_schema.png" width="100%">
+</p>
+
+---
+
+# 🔄 ETL Workflow
+
+The ETL process extracts raw CSV files, validates and cleans the data, transforms it into structured tables, and creates analytical views for reporting.
+
+<p align="center">
+  <img src="diagrams/etl_flow.png" width="100%">
+</p>
+
+---
+
+# 📊 Power BI Dashboards
+
+## Executive Dashboard
+
+<p align="center">
+  <img src="screenshots/05_dashboard/Executive_Dashboard.png" width="100%">
+</p>
+
+---
+
+## Customer Analytics
+
+<p align="center">
+  <img src="screenshots/05_dashboard/Customer_Analytics.png" width="100%">
+</p>
+
+---
+
+## Operations Dashboard
+
+<p align="center">
+  <img src="screenshots/05_dashboard/Operations_Dashboard.png" width="100%">
+</p>
+
