@@ -233,3 +233,80 @@ This project answers important business questions such as:
 - Payment Distribution
 - Customer Spending
 
+---
+
+# 🚀 Installation & Setup
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/rudrasave/Enterprise-Ecommerce-Analytics.git
+```
+
+## Open the Project
+
+```bash
+cd Enterprise-Ecommerce-Analytics
+```
+
+## Database Setup
+
+1. Install PostgreSQL.
+2. Execute the scripts in the following order:
+
+- create_database.sql
+- create_tables.sql
+- constraints.sql
+- indexes.sql
+
+## Load Data
+
+Run the SQL scripts inside the **etl/** folder to import the CSV files.
+
+## Perform Analysis
+
+Execute the SQL scripts inside the **analysis/** folder.
+
+## Power BI Dashboard
+
+Open the following file in Power BI Desktop:
+
+```
+dashboards/Enterprise_Ecommerce_Analytics_Final.pbix
+```
+
+---
+
+# 🚀 Future Improvements
+
+- Deploy dashboards to Power BI Service
+- Automate ETL using Apache Airflow
+- Integrate live data sources
+- Build real-time dashboards
+- Add customer segmentation using Machine Learning
+- Create forecasting models for sales prediction
+- Optimize SQL queries for large-scale datasets
+
+---
+
+# 👨‍💻 Author
+
+**Rudra Save**
+
+Electronics & Telecommunication Engineering Student
+
+Aspiring Data Analyst | SQL | PostgreSQL | Power BI | Python
+
+📧 Email: your-email@example.com
+
+💼 LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN/
+
+🐙 GitHub: https://github.com/rudrasave
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+Feel free to use this project for learning and portfolio purposes.
